@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(16, 25px);
+    grid-template-rows: repeat(16, 25px);
+    gap: 0.8px;
+}
+
+
+.rojo {
+    background-color: red;
+}
+
+.blanco {
+    background-color: white;
+}
+
+.negro {
+    background-color: black;
+}
+
+.amarillo {
+    background-color: yellow;
+}
+
+.marron {
+    background-color: maroon;
+}
