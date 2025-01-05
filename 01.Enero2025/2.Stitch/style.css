@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(27, 17px);
+    grid-template-rows: repeat(26, 17px);
+    gap: 0.8px;
+
+    background-color: rgb(172, 172, 179);
+    background-color: white;
+}
+
+
+
+.azul {
+    background-color: rgb(41, 41, 235);
+}
+
+.rosa {
+    background-color: rgb(251, 134, 212);
+}
+
+.celeste {
+    background-color: rgb(130, 224, 224);
+}
+
+.negro {
+    background-color: black;
+}
+
+.blanco {
+    background-color: white;
+}
