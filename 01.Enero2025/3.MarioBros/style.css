@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(39, 37, 37);
+}
+
+.grid {
+    display: grid;
+
+    /*HORIZONTAL*/
+    grid-template-columns: repeat(12, 26px);
+    grid-template-rows: repeat(16, 26px);
+    gap: 0.8px;
+
+}
+
+.negro {
+    background-color: black;
+}
+
+.azul {
+    background-color: #12157E;
+}
+
+.blanco {
+    background-color: white;
+}
+
+.amarillo {
+    background-color: yellow
+}
+
+.rojo {
+    background-color: rgb(255, 0, 0);
+}
+
+.crema {
+    background-color: rgb(255, 247, 184);
+}
+
+.marron {
+    background-color: rgb(98, 88, 7);
+}
+
+.marronClaro {
+    background-color: rgb(115, 103, 15);
+}
+
+.fondo {
+    background-color: transparent
+}

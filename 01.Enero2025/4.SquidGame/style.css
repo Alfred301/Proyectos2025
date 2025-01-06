@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(99, 96, 89);
+}
+
+.grid {
+    display: grid;
+
+    grid-template-columns: repeat(62, 9.5px);
+    grid-template-rows: repeat(50, 9.5px);
+    gap: 0.8px;
+
+    background-color: transparent;
+}
+
+.fondo {
+    background-color: transparent;
+}
+
+.rojo {
+    background-color: #FF2277;
+}
+
+.rojoSombra {
+    background-color: #CC1177;
+}
+
+.blanco {
+    background-color: #DDDDDD;
+}
+
+.sombra {
+    background-color: #889988;
+}
+
+.negro {
+    background-color: #223344;
+}
+
+.negroSombra {
+    background-color: #3A4E58;
+}
+
+.canela {
+    background-color: #777766;
+}
