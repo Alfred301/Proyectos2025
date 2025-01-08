@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(96, 205, 217);
+}
+
+.grid {
+    display: grid;
+
+    grid-template-columns: repeat(30, 15px);
+    grid-template-rows: repeat(17, 15px);
+    gap: 0.8px;
+
+    background-color: transparent;
+}
+
+.fondo {
+    background-color: transparent;
+}
+
+.negro {
+    background-color: black;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.blanco {
+    background-color: white;
+}
+
+.rojo {
+    background-color: red;
+}
