@@ -12,10 +12,10 @@ body {
     display: grid;
 
     grid-template-columns: repeat(51, 8px);
-    grid-template-rows: repeat(17, 8px);
+    grid-template-rows: repeat(57, 8px);
     gap: 0.8px;
 
-    background-color: gray;
+    background-color: transparent;
 
 }
 
