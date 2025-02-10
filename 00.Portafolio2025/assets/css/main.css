@@ -1506,3 +1506,32 @@ section,
     max-height: 100dvh;
   }
 }
+
+
+
+
+.portfolio-info .portolio_enlazes-1,
+.portfolio-info .portolio_enlazes-2 {
+
+  position: absolute;
+  background-color: black;
+  padding: 0.4em;
+  border-radius: 10px;
+  color: white;
+}
+
+
+.portfolio-info .portolio_enlazes-1 {
+  top: 80%;
+  left: 55%;
+}
+
+.portfolio-info .portolio_enlazes-2 {
+  top: 80%;
+  left: 35%;
+}
+
+.portfolio-info .portolio_enlazes-1:hover,
+.portfolio-info .portolio_enlazes-2:hover {
+  color: #18d26e;
+}

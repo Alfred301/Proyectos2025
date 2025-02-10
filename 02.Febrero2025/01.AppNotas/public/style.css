@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Smooch+Sans:wght@100..900&display=swap');
+
+
+* {
+    font-family: "Smooch Sans", serif;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+body {
+    text-align: center;
+    margin: 20px;
+    background-color: black;
+    color: white;
+}
+
+form {
+    margin: 20px auto;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+textarea {
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 1.5em;
+    border-radius: 15px;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    padding: 10px;
+    background-color: #28a645;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    border-radius: 15px;
+    transition: background-color 0.5s ease;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#notasContainer {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nota {
+    background-color: transparent;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 2em;
+    max-width: 30dvw;
+    transition: box-shadow 0.5s ease;
+}
+
+.nota:hover {
+    box-shadow: 0 0 10px rgb(227, 220, 220);
+}
+
+.nota button {
+    background-color: transparent;
+    margin-top: 5px;
+
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.8em;
+    transition: background-color 0.5s ease;
+}
+
+.nota button:nth-child(3):hover {
+    background-color: #28a745;
+}
+
+.nota button:nth-child(4):hover {
+    background-color: rgb(247, 65, 65);
+}
